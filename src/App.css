@@ -1,0 +1,94 @@
+.App {
+    width: fit-content;
+    background-color: rgba(191, 191, 191, 0.15);
+    margin: 5rem auto;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    border-width: 0.3rem;
+    border-color: #CF0A0A;
+}
+
+h5, h1 {
+    color: #EEEEEE;
+}
+
+h6, h4 {
+    color: #CF0A0A;
+}
+
+.headerHome {
+    background-color: #DC5F00;
+    border-color: #CF0A0A;
+    box-shadow: 0.07rem 0.07rem 0.07rem #CF0A0A;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    margin: 4rem auto;
+    width: 83rem;
+    padding: 1rem;
+}
+
+.connection {
+    width: 40rem;
+    margin: 0rem auto 3rem;
+    text-align: center;
+}
+
+.connMsg {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100rem;
+    margin: 4rem auto;
+}
+
+.childContainer {
+    border-color: #CF0A0A;
+    box-shadow: 0.1rem 0.1rem 0.1rem #CF0A0A;
+    border-width: 0.2rem;
+    border-radius: 1rem;
+    margin: 4rem 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    z-index: 1;
+}
+
+.heading {
+    background-color: #DC5F00;
+    margin-bottom: 3rem;
+    text-align: center;
+    border-width: 0.2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #CF0A0A;
+    border-color: #CF0A0A;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    bottom: 3.5rem;
+    z-index: 2;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.dataValue {
+    position: relative;
+    left: 4rem;
+}
+
+.graph {
+    border-width: 0.2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #CF0A0A;
+    border-color: #CF0A0A;
+    z-index: 1;
+}
